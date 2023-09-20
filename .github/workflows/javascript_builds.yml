@@ -45,7 +45,7 @@ jobs:
           sconsflags: ${{ env.SCONSFLAGS }}
           platform: javascript
           target: release
-          tools: false
+          tools: true
 
       - name: Upload artifact
         uses: ./.github/actions/upload-artifact
